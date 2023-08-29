@@ -1,0 +1,118 @@
+#hero h1 {
+    font-family: cursive, cursive;
+    font-size: 4rem;
+}
+
+#hero p {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+}
+
+small {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.dark-theme {
+    background-color: black;
+    color: white;
+}
+
+.dark-theme .nav-link{
+    color: white;
+}
+
+#hero .container {
+    height: 90vh;
+    flex-direction: column;
+}
+
+#hero {
+    background-color: #FFF6DC;
+}
+
+#about-me img {
+    width: 15rem;
+    border: BLACK solid 3px;
+    align-self: start;
+    background-color: white;
+}
+
+#about-me {
+    background-color: #ffc6ac;
+}
+
+
+#edu-work {
+    background-color: #FFF6DC;
+}
+
+#portfolio {
+    background-color: #C4c1a4;
+}
+
+#contact-me {
+    background-color: #FFF6DC;
+}
+
+#contact-me button {
+    width: 300px;
+}
+
+#footer {
+    background-color: #9e9fa5;
+}
+
+@media (min-width: 300px) and (max-width: 768px){
+    h1 {
+        text-align: center;
+        padding: 0;
+    }
+
+    #about-me .row {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #about-me img {
+        margin-bottom: 30px;
+    }
+
+    #about-me p {
+        margin-bottom: 20px;
+    }
+
+    #contact-me .buttons {
+        display: grid;
+        width: 100%;
+        margin: 0;
+    }
+
+    #contact-me button {
+        height: 100px;
+        width: 300px;
+        margin: 0;
+    }
+}
+
